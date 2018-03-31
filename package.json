@@ -6,8 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flufly/Flufly-Desktop.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flufly/Flufly-Desktop/issues"
+  },
+  "homepage": "https://github.com/Flufly/Flufly-Desktop#readme",
   "dependencies": {
     "menubar": "^5.2.3"
   }
