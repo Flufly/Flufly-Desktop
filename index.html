@@ -4,7 +4,9 @@
 <head>
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 
-  <script src="index.js"></script>
+  <!-- <link href="https://bootswatch.com/4/lux/bootstrap.min.css" rel="stylesheet"> -->
+
+
 </head>
 
 <body>
@@ -15,49 +17,20 @@
 
   </div>
 
-  <ul>
-    <li>
-      <div class="box boximg1">
-        <i class="fa fa-hand-o-up"></i>
-        <div class="overlay">
-          <p class="heading">Rainy Day</p>
-          <p class="caption">Go get wet!</p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="box boximg2" tabindex="2" onClick="focus">
-        <i class="fa fa-hand-o-up"></i>
-        <div class="overlay">
-          <p class="heading">Lazy Day</p>
-          <p class="caption">Take it easy!</p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="box boximg3" tabindex="3" onClick="focus">
-        <i class="fa fa-hand-o-up"></i>
-        <div class="overlay">
-          <p class="heading">Feeling Fruity</p>
-          <p class="caption">Yummy!</p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="box boximg4" tabindex="4" onClick="focus">
-        <i class="fa fa-hand-o-up"></i>
-        <div class="overlay">
-          <p class="heading">Music</p>
-          <p class="caption">To My Speakers!</p>
-        </div>
-      </div>
-    </li>
-  </ul>
-
-
-
+  <div id="coins">
+  </div>
 
 
 </body>
+
+<script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+
+<!-- normal script imports etc  -->
+<script src="jquery.js"></script>
+<script src="index.js"></script>
+
+<!-- Insert this line after script imports -->
+<script>if (window.module) module = window.module;</script>
+
 
 </html>
