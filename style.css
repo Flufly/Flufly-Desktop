@@ -22,52 +22,16 @@ body{
   background: white;  /* fallback for old browsers */
 /* */
 }
+#coins{
+  margin-top: 90px;
 
-.box{
-  border: 1px solid black;
-  width:40%;
-  height: 60px;
-  padding-top: 70px;
-  margin-left: 10px;
-  margin-top: 20px;
-  float: left;
+    width:400px;
+    border:1px solid #000;
+
 }
+
 
 @import url(https://fonts.googleapis.com/css?family=Limelight|Open+Sans:400,300);
-ul {
-  list-style: none;
-  text-align: center;
-}
-
-li {
-  display: inline-block;
-  margin: 20px;
-}
-
-.box {
-  position:relative;
-  border:none;
-  box-sizing:border-box;
-  width: 50px;
-  height: 70px;
-  border-radius: 15px;
-  background-color: #ccc;
-  padding: 10px;
-  -webkit-box-shadow: inset 0 0 100px #000000;
-  -moz-box-shadow: inset 0 0 100px #000000;
-  box-shadow: inset 0 0 100px #000000;
-}
-
-
-/* .overlay {
-  height: 300px;
-  width: 300px;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  color: #ffffff;
-  opacity: 0;
-} */
 
 
 .heading {
@@ -76,7 +40,5 @@ li {
   text-transform: uppercase;
 }
 
-.caption {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.5em;
-}
+
+
