@@ -19,14 +19,16 @@
 }
 
 body{
-  background: white;  /* fallback for old browsers */
+  background: white;  /* fallback for old
+  browsers */
 /* */
+
 }
 #coins{
   margin-top: 90px;
 
     width:400px;
-    border:1px solid #000;
+
 
 }
 
@@ -39,6 +41,30 @@ body{
   font-size: 0.2em;
   text-transform: uppercase;
 }
+
+
+
+img{
+  width : 12%;
+}
+.box {
+  border: 5px solid black;
+  width: 100%;
+
+
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
 
 
 
