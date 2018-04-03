@@ -6,10 +6,24 @@ $(document).ready(function(){
     $.each(coin,function(index,coin){ // for each would
 
       $('#coins').append(`
-        <h1>${coin.name}</h1>
-              ${coin.rank} ${coin.percent_change_1h}${coin.rank} ${coin.percent_change_24h}${coin.rank} ${coin.percent_change_7d} ${coin.price_usd}
-      `)
-    });
+      <div class = "box">
+
+          <img src="img/coin${coin.rank}.png" class="float-left">
+
+
+          <h4 class="text-info">${coin.symbol}</h4><br>${coin.symbol}&nbsp;|&nbsp;${coin.name}
+
+            <span class="test badge badge-secondary btn-block">1h &nbsp; : &nbsp;<span id="value1H${coin.rank}"> ${coin.percent_change_1h}</span></span><br>
+            <span class="test badge badge-secondary btn-block">24h : &nbsp; <span id="value24H${coin.rank}"> ${coin.percent_change_24h}</span></span><br>
+            <span class="test badge badge-secondary btn-block">7d &nbsp; : &nbsp; <span id="value7D${coin.rank}"> ${coin.percent_change_7d}</span></span><br>
+
+          <h1><span class="inline-block text-dark">$&nbsp;${coin.price_usd}</span></h1>
+
+
+
+    </div> <!-- box -->
+  `)
+});
     // Styling based on condition
     for (var i = 1; i <= 10; i++) {
       // For 1H
