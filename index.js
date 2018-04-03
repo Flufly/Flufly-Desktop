@@ -12,13 +12,15 @@ $(document).ready(function(){
           <img src="img/coin${coin.rank}.png" class="float-left">
           </div>
 
+          <div class = "price">
+          <h2><span class="inline-block text-dark">$&nbsp;${coin.price_usd}</span></h2>
+          </div>
+
           <div class = "coin-name">
           <h4 class="text-info"></h4><br>${coin.symbol}&nbsp;|&nbsp;${coin.name}
 
 
-          <div class = "price"
-          <h2><span class="inline-block text-dark">$&nbsp;${coin.price_usd}</span></h2>
-          </div>
+
 
           </div>
           <hr>
@@ -43,6 +45,7 @@ $(document).ready(function(){
 
 
     </div> <!-- box -->
+
   `)
 });
     // Styling based on condition
