@@ -22,7 +22,8 @@ body{
   background: white;  /* fallback for old
   browsers */
 /* */
-
+margin: 0;
+  padding: 0;
 }
 #coins{
   margin-top: 90px;
@@ -45,21 +46,45 @@ body{
 
 
 img{
-  width : 12%;
+  width : 10%;
+  float: left;
 }
 .box {
   border: 5px solid black;
   width: 100%;
+  background-color: #43cea2;
+  display: "flex";
+  margin-Bottom: 20;
 
-
-}
-body {
-  margin: 0;
-  padding: 0;
 }
 
 
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+
+  padding: 10px;
+}
+.grid-container>div {
+  text-align: center;
+  padding:20px 0;
+  font-size: 15px;
+}
+.item1 {
+  grid-row: 1 / 3;
+}
+
+.price{
+  float: right;
+  font-size: 12px;
+  margin-top :0;
+}
+
+.coin-name{
+
+}
 
 
 
