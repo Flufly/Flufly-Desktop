@@ -7,17 +7,38 @@ $(document).ready(function(){
 
       $('#coins').append(`
       <div class = "box">
-
+      <div class = "upperRow">
+        <div class = "coin-img">
           <img src="img/coin${coin.rank}.png" class="float-left">
+          </div>
+
+          <div class = "coin-name">
+          <h4 class="text-info"></h4><br>${coin.symbol}&nbsp;|&nbsp;${coin.name}
 
 
-          <h4 class="text-info">${coin.symbol}</h4><br>${coin.symbol}&nbsp;|&nbsp;${coin.name}
+          <div class = "price"
+          <h2><span class="inline-block text-dark">$&nbsp;${coin.price_usd}</span></h2>
+          </div>
 
+          </div>
+          <hr>
+
+            <div class = "grid-container">
+
+            <div class = "item1">
             <span class="test badge badge-secondary btn-block">1h &nbsp; : &nbsp;<span id="value1H${coin.rank}"> ${coin.percent_change_1h}</span></span><br>
-            <span class="test badge badge-secondary btn-block">24h : &nbsp; <span id="value24H${coin.rank}"> ${coin.percent_change_24h}</span></span><br>
-            <span class="test badge badge-secondary btn-block">7d &nbsp; : &nbsp; <span id="value7D${coin.rank}"> ${coin.percent_change_7d}</span></span><br>
+            </div>
 
-          <h1><span class="inline-block text-dark">$&nbsp;${coin.price_usd}</span></h1>
+            <div class = "item2">
+            <span class="test badge badge-secondary btn-block">24h : &nbsp; <span id="value24H${coin.rank}"> ${coin.percent_change_24h}</span></span><br>
+            </div>
+
+            <div class = "item3">
+            <span class="test badge badge-secondary btn-block">7d &nbsp; : &nbsp; <span id="value7D${coin.rank}"> ${coin.percent_change_7d}</span></span><br>
+            </div>
+
+            </div> <!-- grid container -->
+
 
 
 
