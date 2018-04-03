@@ -1,34 +1,40 @@
 .navbar {
   overflow: hidden;
-  background-color: black;
+  background-color: white;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  height: 20px%;
+  height: 17px%;
   left: 0;
+  border-bottom: 2px solid black;
 
 }
 
 .header-text{
 
-  color: white;
+  color: black;
   text-align: center;
   font-size: 20px;
 
   display: block;
+
 }
 
 body{
-  background: white;  /* fallback for old
+  background: ;  /* fallback for old
   browsers */
 /* */
 margin: 0;
-  padding: 0;
+
+  width: 100%;
+
 }
 #coins{
-  margin-top: 90px;
+  margin-top: 70px;
+  padding-right: 12px;
+  padding-left: 12px;
 
-    width:400px;
+
 
 
 }
@@ -50,7 +56,7 @@ img{
   float: left;
 }
 .box {
-  border: 5px solid black;
+
   width: 100%;
   background-color: #43cea2;
   display: "flex";
@@ -80,6 +86,9 @@ img{
   float: right;
   font-size: 12px;
   margin-top :0;
+}
+hr{
+  text-align: center;
 }
 
 .coin-name{
