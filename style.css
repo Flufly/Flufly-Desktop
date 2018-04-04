@@ -1,32 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+
 .navbar {
   overflow: hidden;
-  background-color: white;
+  background-color: black;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  height: 17px%;
+  height: 16%;
   left: 0;
   border-bottom: 2px solid black;
+  margin-top: 0;
+
 
 }
 
 .header-text{
 
-  color: black;
+  color: white;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
 
   display: block;
 
 }
 
 body{
-  background: ;  /* fallback for old
+  background: white;  /* fallback for old
   browsers */
 /* */
 margin: 0;
 
   width: 100%;
+  font-family: 'Acme', sans-serif;
 
 }
 #coins{
@@ -55,14 +61,18 @@ margin: 0;
 img{
   width : 10%;
   float: left;
+  margin-left: 10px;
+  margin-top:10px;
 }
 .box {
 
   width: 100%;
   background-color: #43cea2;
+  height: 150px;
   display: "flex";
   margin-Bottom: 20;
   border-radius: 15px 50px 30px;
+
 
 }
 
@@ -74,6 +84,7 @@ img{
   grid-gap: 10px;
 
   padding: 10px;
+  padding-bottom: 40px;
 }
 .grid-container>div {
   text-align: center;
@@ -86,17 +97,21 @@ img{
 
 .price{
   float: right;
-  font-size: 16px;
+  font-size: 12px;
   margin-top :0;
   margin-right: 35px;
 
 }
 hr{
   text-align: center;
+  margin-left : 25px;
+  margin-right: 25px;
 }
 
 .coin-name{
-
+  margin-left: 35px;
+  padding-left: 30px;
+  padding-top: 0px;
 }
 
 
