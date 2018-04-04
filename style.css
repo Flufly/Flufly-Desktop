@@ -113,10 +113,14 @@ hr{
   padding-left: 30px;
   padding-top: 0px;
 }
+.last-hours{
+  top:0;
+  padding-top: 0;
+}
 
-
-
-
+.percentage{
+  font-size: 12px;
+}
 
 
 
