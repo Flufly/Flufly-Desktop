@@ -37,6 +37,7 @@ margin: 0;
 
 
 
+
 }
 
 
@@ -61,6 +62,7 @@ img{
   background-color: #43cea2;
   display: "flex";
   margin-Bottom: 20;
+  border-radius: 15px 50px 30px;
 
 }
 
@@ -84,8 +86,10 @@ img{
 
 .price{
   float: right;
-  font-size: 12px;
+  font-size: 16px;
   margin-top :0;
+  margin-right: 35px;
+
 }
 hr{
   text-align: center;
