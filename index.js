@@ -13,14 +13,11 @@ $(document).ready(function(){
           </div>
 
           <div class = "price">
-          <h2><span class="inline-block text-dark">$&nbsp;${coin.price_usd}</span></h2>
+          <h2>$&nbsp;${coin.price_usd}</span></h2>
           </div>
 
           <div class = "coin-name">
           <h4 class="text-info"></h4><br>${coin.symbol}&nbsp;|&nbsp;${coin.name}
-
-
-
 
           </div>
           <br>
