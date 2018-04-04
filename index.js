@@ -23,22 +23,23 @@ $(document).ready(function(){
           <br>
 
           <hr>
-
+            <div class = "last-hours">
             <div class = "grid-container">
 
             <div class = "item1">
-            <span class="test badge badge-secondary btn-block">1h &nbsp; : &nbsp;<span id="value1H${coin.rank}"> ${coin.percent_change_1h}</span></span><br>
+            1h &nbsp; : &nbsp;<span id="value1H${coin.rank}"> ${coin.percent_change_1h}</span></span><span class="percentage"> %</span><br>
             </div>
 
             <div class = "item2">
-            <span class="test badge badge-secondary btn-block">24h : &nbsp; <span id="value24H${coin.rank}"> ${coin.percent_change_24h}</span></span><br>
+            24h : &nbsp; <span id="value24H${coin.rank}"> ${coin.percent_change_24h}</span></span><span class="percentage"> %</span><br>
             </div>
 
             <div class = "item3">
-            <span class="test badge badge-secondary btn-block">7d &nbsp; : &nbsp; <span id="value7D${coin.rank}"> ${coin.percent_change_7d}</span></span><br>
+            7d &nbsp; : &nbsp; <span id="value7D${coin.rank}"> ${coin.percent_change_7d}</span></span><span class="percentage"> %</span><br>
             </div>
 
             </div> <!-- grid container -->
+            </div> <!-- last-hours-->
 
 
 
@@ -54,21 +55,21 @@ $(document).ready(function(){
         document.getElementById("value1H"+[i]).style.color="#ff0000"
       }
       else if (document.getElementById("value1H"+[i]).innerText > 0) {
-        document.getElementById('value1H'+[i]).style.color="#00ff00"
+        document.getElementById('value1H'+[i]).style.color="#220de0"
       }
       // For 24H
       if (document.getElementById("value24H"+[i]).innerText < 0) {
         document.getElementById("value24H"+[i]).style.color="#ff0000"
       }
       else if (document.getElementById("value24H"+[i]).innerText > 0) {
-        document.getElementById('value24H'+[i]).style.color="#00ff00"
+        document.getElementById('value24H'+[i]).style.color="#220de0"
       }
       // For 7D
       if (document.getElementById("value7D"+[i]).innerText < 0) {
         document.getElementById("value7D"+[i]).style.color="#ff0000"
       }
       else if (document.getElementById("value7D"+[i]).innerText > 0) {
-        document.getElementById('value7D'+[i]).style.color="#00ff00"
+        document.getElementById('value7D'+[i]).style.color="#220de0"
       }
     }
   });
