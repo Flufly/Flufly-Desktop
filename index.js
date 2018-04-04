@@ -23,6 +23,8 @@ $(document).ready(function(){
 
 
           </div>
+          <br>
+
           <hr>
 
             <div class = "grid-container">
